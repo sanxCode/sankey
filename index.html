@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAX Gmezone</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0px;
+            padding: 0px;
+            background: url("bg.jpg");
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: -13px;
+
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 64%;
+            margin: 14px 198px;
+
+
+
+        }
+
+        .right {
+
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 7px;
+            top: 17px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: black;
+            padding: 40px;
+            font-size: 20px;
+
+        }
+
+        .navbar li a:hover,
+        a:active {
+            color: red
+        }
+
+        .left img {
+            margin: -40px -15px;
+            width: 200px;
+            filter: invert();
+        }
+
+        .left div {
+            text-align: center;
+
+        }
+
+        .btn {
+            margin: 12px 2px;
+            background: white;
+            padding: 1px 17px;
+            cursor: pointer;
+            border: 2px solid gray;
+            border-radius: 8px;
+            font-size: 17px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(246, 246, 246);
+        }
+
+        .cont {
+            border: 2px solid black;
+            margin: 80px 46px;
+            ;
+            padding: 10px 40px;
+            width: 37%;
+            border-radius: 10px;
+        }
+
+        .formg input {
+            text-align: center;
+            display: block;
+            width: 375px;
+            padding: 1px;
+            margin: 30px 5px 45px 20px;
+            font-family: 'Courier New', Courier, monospace;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 20px;
+
+           
+
+
+        }
+        .cont button {
+            display: block;
+            width: 180px;
+            margin: 30px 20px;
+            font-size: 19px;
+            font-weight: bold;
+            border-radius: 5px;
+
+
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- for logo -->
+        <div class="left">
+            <img src="lg.png" alt="">
+
+
+        </div>
+        <!-- for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Game Contast</a></li>
+                <li><a href="#">Contast Us</a></li>
+            </ul>
+
+        </div>
+        <!-- for btn  -->
+        <div class="right">
+            <button class="btn">Log In</button>
+            <button class="btn">Sign Up</button>
+
+        </div>
+    </header>
+
+    <div class="cont">
+        <h1>Compte With Best Gamers</h1>
+        <form action="#">
+            <div class="formg">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="formg">
+                <input type="text" placeholder="Enter Your Game">
+            </div>
+            <div class="formg">
+                <input type="text" placeholder="Enter Your Adress">
+            </div>
+            <div class="formg">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <button class="btn">Enter Now</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
